@@ -1,0 +1,62 @@
+body{
+    background-image: url(/image/Wallpaperkiss_1476064.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgBtn{
+    margin-left: 42.5%;
+    margin-right: 50%;
+    
+}
+.btnAleatorio{
+    background-image: url(/image/boton.png);
+    width: 200px;
+    height: 200px;
+    background-size: 170%;
+    background-position: 53%;
+    border-radius: 300ex;
+}
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity:0;
+	transition: opacity 100ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+    transition: opacity 100ms ease-in;
+}
+.cerrar {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+.cerrar:hover { background: #00d9ff; }
