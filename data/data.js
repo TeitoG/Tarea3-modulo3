@@ -1,28 +1,28 @@
 export const personajes = [{
     nombre :"Harry Potter",
     casa :"Gryffindor",
-    foto : "https://static.wikia.nocookie.net/hitlerparody/images/4/4a/Harry-potter-ficcion.jpg/revision/latest?cb=20201103180440&path-prefix=es",
+    foto : "./image/harry.jpg   ",
 },{
     nombre : "Hermione Granger",
     casa : "Gryffindor",
-    foto : "https://static.wikia.nocookie.net/warnerbros/images/3/3e/Hermione.jpg/revision/latest?cb=20120729103114&path-prefix=es",
+    foto : "./image/hermione.jpeg",
 },{
     nombre : "Ron Weasley",
     casa : "Gryffindor",
-    foto : "https://static.wikia.nocookie.net/esharrypotter/images/3/34/P7_Rony_promo.jpg/revision/latest?cb=20180719012207"
+    foto : "./image/ron.jpg"
 },{
     nombre : "Draco Malfoy",
     casa : "Slytherin",
-    foto : "https://static.wikia.nocookie.net/esharrypotter/images/6/67/Draco_Duelo.jpg/revision/latest/scale-to-width-down/774?cb=20180501172548",
+    foto : "./image/draco.jpg",
 },{
     nombre : "Minerva McGonagall",
     casa : "Gryffindor",
-    foto : "https://static.wikia.nocookie.net/9dce102d-d1e2-4ff6-9a7d-a96c5be37183/scale-to-width/755",
+    foto : "./image/mcgonagall.jpg",
 
 },{
     nombre : "Lord Voldermort",
     casa : "Slytherin",
-    foto : "https://static.wikia.nocookie.net/esharrypotter/images/1/1c/Tomdh.jpg/revision/latest?cb=20110711204536",
+    foto : "./image/voldemort.jpg",
 }
 
 ]

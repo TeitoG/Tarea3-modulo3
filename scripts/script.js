@@ -13,8 +13,10 @@ function persRandom() {
     let nombre = Pers[0]
     let casa = Pers[1]
     let foto = Pers[2]
+    const image = document.createElement('imgPerso')
+    image.src = foto
     document.getElementById("Nombre").innerHTML = `Personaje: ${nombre}`
-    document.getElementById("imgPerso").innerHTML = `<img id="imgPerso" src="${foto}" class="imgPerso">`
+    document.getElementById("imgPerso").innerHTML = `<img src="${foto}">`
     document.getElementById('Casa').innerHTML = `${casa}`
 }
 
